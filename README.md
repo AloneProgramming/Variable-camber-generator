@@ -2,10 +2,10 @@
 
 #### This code generates coordinates for a 4-digit NACA airfoil with a variable-camber morphing trailing edge, leading edge or both.
 
-LE_console.cpp | Generates morphing leading edge (slat)
-TE_console.cpp | Generates morphing trailing edge (flap)
-TE_trimmed_console.cpp | Generates trimmed morphing trailing edge
-ALL_console.cpp | Generates the complete set of high-lift devices
+LE_console.cpp generates morphing leading edge (slat);
+TE_console.cpp generates morphing trailing edge (flap);
+TE_trimmed_console.cpp generates trimmed morphing trailing edge;
+ALL_console.cpp generates the complete set of high-lift devices.
 
 ##### HOW IT WORKS (Trailing Edge Flap Example):
 
