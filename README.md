@@ -11,10 +11,10 @@ ALL_console.cpp generates the complete set of high-lift devices<br />
 
 The user defines the hinge x-location (x<sub>h</sub>), with y<sub>h</sub> calculated as the mean camber line point at x<sub>h</sub>. Upper (x<sub>u</sub>, y<sub>u</sub>) and lower (x<sub>l</sub>, y<sub>l</sub>) surface coordinates of the morphing section are rotated using:
 
-x<sub>u new</sub> = x<sub>h</sub> + (x<sub>u</sub> - x<sub>h</sub>) cos (δ<sub>ld</sub>) - (y<sub>u</sub> - y<sub>h</sub>) sin (δ<sub>ld</sub>)
-y<sub>u new</sub> = y<sub>h</sub> + (x<sub>u</sub> - x<sub>h</sub>) sin (δ<sub>ld</sub>) + (y<sub>u</sub> - y<sub>h</sub>) cos (δ<sub>ld</sub>)
-x<sub>l new</sub> = x<sub>h</sub> + (x<sub>l</sub> - x<sub>h</sub>) cos (δ<sub>ld</sub>) - (y<sub>l</sub> - y<sub>h</sub>) * sin (δ<sub>ld</sub>)
-y<sub>l new</sub> = y<sub>h</sub> + (x<sub>l</sub> - x<sub>h</sub>) sin (δ<sub>ld</sub>) + (y<sub>l</sub> - y<sub>h</sub>) cos (δ<sub>ld</sub>)
+x<sub>u new</sub> = x<sub>h</sub> + (x<sub>u</sub> - x<sub>h</sub>) cos (δ<sub>ld</sub>) - (y<sub>u</sub> - y<sub>h</sub>) sin (δ<sub>ld</sub>)<br />
+y<sub>u new</sub> = y<sub>h</sub> + (x<sub>u</sub> - x<sub>h</sub>) sin (δ<sub>ld</sub>) + (y<sub>u</sub> - y<sub>h</sub>) cos (δ<sub>ld</sub>)<br />
+x<sub>l new</sub> = x<sub>h</sub> + (x<sub>l</sub> - x<sub>h</sub>) cos (δ<sub>ld</sub>) - (y<sub>l</sub> - y<sub>h</sub>) * sin (δ<sub>ld</sub>)<br />
+y<sub>l new</sub> = y<sub>h</sub> + (x<sub>l</sub> - x<sub>h</sub>) sin (δ<sub>ld</sub>) + (y<sub>l</sub> - y<sub>h</sub>) cos (δ<sub>ld</sub>)<br />
 
 δ<sub>ld</sub> is the local deflection angle, calculated for each point x in the morphing section:
 
