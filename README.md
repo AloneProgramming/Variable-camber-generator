@@ -18,7 +18,7 @@ y<sub>l new</sub> = y<sub>h</sub> + (x<sub>l</sub> - x<sub>h</sub>) sin (δ<sub>
 
 δ<sub>ld</sub> is the local deflection angle, calculated for each point x in the morphing section:
 
-δ<sub>ld</sub> = δ<sub>fd</sub>  (x - x<sub>h</sub>) / (1 - x<sub>h</sub>), where δ<sub>аd</sub> is the full deflection angle.
+δ<sub>ld</sub> = δ<sub>fd</sub>  (x - x<sub>h</sub>) / (1 - x<sub>h</sub>), where δ<sub>fd</sub> is the full deflection angle.
 
 Each point on the airfoil surface at x > x<sub>h</sub> deflects by an angle relative to its previous position (δ<sub>ld</sub>). The code accounts for the mean camber line slope at (x<sub>h</sub>, y<sub>h</sub>):
 
