@@ -7,6 +7,9 @@ TE_console.cpp generates morphing trailing edge (flap)<br />
 TE_trimmed_console.cpp generates trimmed morphing trailing edge<br />
 ALL_console.cpp generates the complete set of high-lift devices<br />
 
+![VCW](https://github.com/user-attachments/assets/e1e2976d-c980-4188-aa03-4e43ad5f5602)
+
+
 ##### HOW IT WORKS (Trailing Edge Flap Example):
 
 The user defines the hinge x-location (x<sub>h</sub>), with y<sub>h</sub> calculated as the mean camber line point at x<sub>h</sub>. Upper (x<sub>u</sub>, y<sub>u</sub>) and lower (x<sub>l</sub>, y<sub>l</sub>) surface coordinates of the morphing section are rotated using:
